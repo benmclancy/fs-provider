@@ -1,9 +1,19 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Add Rental
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div>
+    <ion-input clearInput placeholder="First Name" [(ngModel)]="inFirstName"></ion-input>
+  </div>
+  <div>
+    <ion-input clearInput placeholder="Last Name" [(ngModel)]="inLastName"></ion-input>
+  </div>
+  <div>
+    <ion-input clearInput placeholder="Price" [(ngModel)]="inPrice"></ion-input>
+  </div>
+</ion-content>
